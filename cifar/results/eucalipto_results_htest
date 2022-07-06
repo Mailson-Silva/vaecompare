@@ -1,0 +1,154 @@
+
+
+\begin{table}[htbp]
+ \centering
+ \caption{P-values for hypothesis testing for each category \textbf{without} refits and averaging using the \textbf{median}.}
+\begin{tabular}{llll}
+\toprule
+{} &    c1 &    c2 &    c3 \\
+\midrule
+c1 &  0.23 &  0.20 &  0.12 \\
+c2 &     - &  0.19 &  0.02 \\
+c3 &     - &     - &  0.02 \\
+\bottomrule
+\end{tabular}
+
+ \label{tab:cifar_htest_pvalues_without_refits_and_median_averaging}
+\end{table}
+
+\begin{table}[htbp]
+ \centering
+ \caption{P-values for hypothesis testing for each category \textbf{with} refits and averaging using the \textbf{median}.}
+\begin{tabular}{llll}
+\toprule
+{} &    c1 &    c2 &    c3 \\
+\midrule
+c1 &  0.02 &  0.41 &  0.02 \\
+c2 &     - &  0.37 &  0.02 \\
+c3 &     - &     - &  0.02 \\
+\bottomrule
+\end{tabular}
+
+ \label{tab:cifar_htest_pvalues_with_refits_and_median_averaging}
+\end{table}
+
+\begin{table}[htbp]
+ \centering
+ \caption{P-values for hypothesis testing for each category \textbf{without} refits and averaging using the \textbf{mean}.}
+\begin{tabular}{llll}
+\toprule
+{} &    c1 &    c2 &    c3 \\
+\midrule
+c1 &  0.06 &  0.19 &  0.11 \\
+c2 &     - &  0.17 &  0.01 \\
+c3 &     - &     - &  0.07 \\
+\bottomrule
+\end{tabular}
+
+ \label{tab:cifar_htest_pvalues_without_refits_and_mean_averaging}
+\end{table}
+
+\begin{table}[htbp]
+ \centering
+ \caption{P-values for hypothesis testing for each category \textbf{with} refits and averaging using the \textbf{mean}.}
+\begin{tabular}{llll}
+\toprule
+{} &    c1 &    c2 &    c3 \\
+\midrule
+c1 &  0.08 &  0.43 &  0.01 \\
+c2 &     - &  0.38 &  0.01 \\
+c3 &     - &     - &  0.01 \\
+\bottomrule
+\end{tabular}
+
+ \label{tab:cifar_htest_pvalues_with_refits_and_mean_averaging}
+\end{table}
+
+
+\begin{table}[htbp]
+ \centering
+ \caption{Results of the hypothesis testing when applying a critical rate of 5\% \textbf{without} refits and averaging using the \textbf{median}. Here G stands for ``good'' and E2 for type 2 error.}
+\begin{tabular}{llll}
+\toprule
+{} & c1 &  c2 &  c3 \\
+\midrule
+c1 &  G &  E2 &  E2 \\
+c2 &  - &   G &   G \\
+c3 &  - &   - &  E1 \\
+\bottomrule
+\end{tabular}
+
+ \label{tab:cifar_htest_errors_without_refits_and_median_averaging}
+\end{table}
+
+\begin{table}[htbp]
+ \centering
+ \caption{Results of the hypothesis testing when applying a critical rate of 5\% \textbf{with} refits and averaging using the \textbf{median}. Here G stands for ``good'' and E2 for type 2 error.}
+\begin{tabular}{llll}
+\toprule
+{} &  c1 &  c2 &  c3 \\
+\midrule
+c1 &  E1 &  E2 &   G \\
+c2 &   - &   G &   G \\
+c3 &   - &   - &  E1 \\
+\bottomrule
+\end{tabular}
+
+ \label{tab:cifar_htest_errors_with_refits_and_median_averaging}
+\end{table}
+
+\begin{table}[htbp]
+ \centering
+ \caption{Results of the hypothesis testing when applying a critical rate of 5\% \textbf{without} refits and averaging using the \textbf{mean}. Here G stands for ``good'' and E2 for type 2 error.}
+\begin{tabular}{llll}
+\toprule
+{} & c1 &  c2 &  c3 \\
+\midrule
+c1 &  G &  E2 &  E2 \\
+c2 &  - &   G &   G \\
+c3 &  - &   - &   G \\
+\bottomrule
+\end{tabular}
+
+ \label{tab:cifar_htest_errors_without_refits_and_mean_averaging}
+\end{table}
+
+\begin{table}[htbp]
+ \centering
+ \caption{Results of the hypothesis testing when applying a critical rate of 5\% \textbf{with} refits and averaging using the \textbf{mean}. Here G stands for ``good'' and E2 for type 2 error.}
+\begin{tabular}{llll}
+\toprule
+{} & c1 &  c2 &  c3 \\
+\midrule
+c1 &  G &  E2 &   G \\
+c2 &  - &   G &   G \\
+c3 &  - &   - &  E1 \\
+\bottomrule
+\end{tabular}
+
+ \label{tab:cifar_htest_errors_with_refits_and_mean_averaging}
+\end{table}
+
+
+\begin{table}[htbp]
+ \centering
+ \caption{Summary of the results of the hypothesis testing when applying a critical rate of 5\%.}
+
+\begin{tabular}{llll}
+\toprule
+Averaging &  Refits & Number Type I errors & Number Type II errors \\
+\midrule
+     mean &    with &                    1 &                     2 \\
+     mean & without &                    0 &                     4 \\
+   median &    with &                    2 &                     2 \\
+   median & without &                    1 &                     4 \\
+\bottomrule
+\end{tabular}
+
+
+ \label{tab:cifar_htest_summary}
+\end{table}
+
+
+Process finished with exit code 0
+
